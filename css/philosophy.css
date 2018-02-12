@@ -1,0 +1,99 @@
+body{background: #D6CCC3;}
+/* banner */
+#banner{width: 94%;margin-left: 3%;height: 616px;overflow: hidden; position: relative;}
+#banner img{width: 100%;opacity:0;position: absolute;top:0;left:0;transition: 0.6s;}
+#banner ul{width: 77%;height: 900px;position: absolute;top:-20%;left:11.5%;border:1px solid #fff;border-radius: 1200px;}
+#banner ul li{width: 100%;height: 60px;text-align: center;line-height: 60px;}
+#banner ul li.no{margin-top:330px;}
+#banner ul li.no span{font-size: 30px;color: #D1CAAD;font-family:Georgia;border-bottom: 1px solid #D1CAAD;}
+#banner ul li.t1{font-size: 60px;margin-top:50px;font-weight:800;color:#DFD7D4; }
+#banner ul li.t2{font-size: 25px;color:#fff;margin-bottom: 20px; }
+#banner ul li.book a{display: inline-block;width: 150px;height: 40px;line-height: 40px;border: 1px solid #fff;margin:10px;text-decoration: none;color: #fff;transition: .5s;}
+#banner ul li.book a:hover{color:#A99269;background: #fff;transition: .5s;}
+
+#banner .next{width: 40px;height: 40px;background:#fff;position: absolute;top:320px;right:10%;font-size:20px;color:#5D5A57;border-radius: 30px;text-align: center;line-height: 40px;cursor: pointer;border:1px solid #fff;transition: .4s;}
+#banner .prev{width: 40px;height: 40px;background:#fff;position: absolute;top:320px;left:10%;font-size:20px;color:#5D5A57;border-radius: 30px;text-align: center;line-height: 40px;cursor: pointer;border:1px solid #fff;transition: .4s;}
+#banner .next:hover{background: #DBCFBB;padding-left:5px;transition: .4s;}
+#banner .prev:hover{background: #DBCFBB;padding-right:5px;transition: .4s;}
+#banner #on{opacity:1;transition: 0.6s;}
+#banner .scroll{width: 60px;height: 40px;position: absolute;left:48%;bottom:3%;font-size:20px;color:#fff;text-align: center;transition: .3s;cursor: pointer;}
+#banner .scroll span{transition: .3s;}
+#banner .scroll:hover{color:#A99269;transition: .3s;}
+#banner .scroll:hover span{margin-top:5px;transition: .3s;}
+
+
+#content .not{height: 650px;margin:0 auto;padding-top: 120px;background: #EDEBEA;position: relative;}
+#content .not dl{width: 700px;margin:0 auto;}
+#content .not dl dt{width: 100%;height: 80px;font-size: 40px;color:#5D5A57;line-height: 80px;font-weight: 400;text-align: center;}
+#content .not dl dd{width: 320px;height: 300px;float: left;font-size: 14px;line-height: 25px;margin-left: 30px;}
+#content .not .more{position: absolute;bottom:100px;left:45%;}
+#content .not .more a{display: inline-block;text-decoration: none;width:140px;height: 43px;border:1px solid #B3B2B1;margin:-10px auto;font-size: 18px;color: #5D5A57;text-align: center;line-height: 43px;transition: .4s;}
+#content .not .more a:hover{background: #BAB9B8;color:#fff;transition: .4s;}
+
+#content .reason{height: 300px;}
+#content .reason dl{width: 750px;margin:-55px auto;}
+#content .reason dl dd{width: 150px;float: left;margin:0 50px;margin-top: 30px;}
+#content .reason dl dd li{width: 100%;}
+#content .reason dl dd li.one{display:inline-block;font-size: 25px;line-height:20px;font-family: consolas;width: 45px;height: 45px;border-radius: 40px;border:1px solid #fff;background: #fff;text-align: center;line-height: 45px;margin-left:53px;}
+#content .reason dl dd li.two{font-size: 25px;height: 60px;line-height: 60px;color: #5D5A57;text-align: center;}
+#content .reason dl dd li.three{font-size: 14px;line-height: 25px;text-align: center;}
+
+
+#content .believe{background: #EDEBEA;padding-bottom: 30px;position: relative;}
+#content .believe .line1{background: #5D5A57;width: 2px;height: 20px;margin:0 auto;}
+#content .believe .tit{color: #5D5A57;width:100%;text-align: center;font-size: 50px;margin: 30px 0 70px 0;}
+#content .believe dl{width: 700px;height: 430px;color:#2F2B2B;}
+#content .believe dl dt{width: 280px;height: 280px;position: relative;box-shadow: -5px 5px #A99269;float: left;margin-right:30px;}
+#content .believe dl dt span{width: 280px;height: 280px;position: absolute;top:0;left:0;color:#fff;font-size: 50px;line-height: 280px;text-align: center;font-family: consolas;opacity: 0.7;}
+#content .believe dl dd.d1{font-size: 25px;padding-top:20px;}
+#content .believe dl .line2{width: 70px;height: 1px;background: #A8A39D;margin:10px 0 10px 300px;}
+#content .believe dl dd.d2{font-size: 17px;padding-bottom:20px;color:#A99269;}
+#content .believe dl dd.d3{line-height: 35px;}
+#content .believe dl.a{margin-left:200px;}
+#content .believe dl.b{width: 750px;margin-left:230px;background: #fff;position: relative;}
+#content .believe dl.b dt{box-shadow: none;position: absolute;top:20px;right:-170px;}
+#content .believe dl.b dt img{border-radius: 200px;}
+#content .believe dl.b .line2{width: 70px;height: 1px;background: #A8A39D;margin:10px 0 10px -10px;}
+#content .believe dl.b .ddd{width: 500px;padding-left: 100px;padding-top:50px;}
+#content .believe dl.b .line3{width: 375px;height: 2px;background: #A99269;position: absolute;bottom: 0;right:0;}
+#content .believe dl.b .beach{border-radius: 100px;position: absolute;bottom: -70px;left:-70px;width: 160px;z-index: 999;}
+#content .believe .V{font-size: 900px;position: absolute;left:-50px;top:-300px;color:#E0E0E0;}
+#content .believe .A{font-size: 400px;position: absolute;right:100px;bottom:200px;color:#E0E0E0;}
+
+
+#content .mission{height: 410px;background: #A8A39D;position: relative;overflow: hidden;}
+#content .mission .L{font-size: 700px;position: absolute;left:300px;top:-350px;color:#A09B95;}
+#content .mission dl{width:250px;margin:50px auto;text-align: center;}
+#content .mission dl dt{font-size: 25px;color: #2F2B2B;}
+#content .mission dl dd{font-size: 25px;color: #fff;margin-top: 50px;line-height:40px;}
+#content .mission dl dd span{font-size: 50px;}
+
+#content .touch{background: #EDEBEA;padding-bottom: 30px;position: relative;}
+#content .touch .line1{background: #5D5A57;width: 2px;height: 25px;margin:0 auto;}
+#content .touch .tit{color: #5D5A57;width:100%;text-align: center;font-size: 50px;margin: 30px 0 70px 0;}
+#content .touch dl{width: 800px;height: 630px;color:#2F2B2B;margin:30px auto;}
+#content .touch dl dt{width: 366px;height: 400px;position: relative;box-shadow: -5px 5px #A99269;float: right;margin-left:30px;}
+#content .touch dl dt span{width: 366px;height: 480px;position: absolute;top:0;left:0;color:#fff;font-size: 50px;line-height: 480px;text-align: center;font-family: consolas;opacity: 0.7;}
+#content .touch dl dd{text-align: right;}
+#content .touch dl dd.d1{font-size: 25px;padding-top:120px;}
+#content .touch dl .line2{width: 70px;height: 1px;background: #A8A39D;margin:10px 0 10px 340px;}
+#content .touch dl dd.d2{font-size: 17px;padding-bottom:20px;color:#A99269;}
+#content .touch dl dd.d3{line-height: 35px;}
+#content .touch .U{font-size: 600px;position: absolute;right:90px;top:0px;color:#E0E0E0;}
+#content .touch .ES{font-size: 300px;position: absolute;left:90px;bottom:-180px;color:#E0E0E0;}
+
+#content .touch .line1{background: #5D5A57;width: 2px;height: 25px;margin:0 auto;}
+#content .touch .tit{color: #5D5A57;width:100%;text-align: center;font-size: 50px;margin: 30px 0 70px 0;}
+
+#content .eco{background: #E2DDD9;}
+#content .eco dl{width: 1000px;height: 580px;color:#2F2B2B;margin-left:200px;position: relative;}
+#content .eco dl dt{width: 551px;height: 354px;position: relative;box-shadow: -5px 5px #A99269;float: right;margin-left:30px;position: absolute;right:-60px;top:120px;}
+#content .eco dl dt span{width: 551px;height: 354px;position: absolute;top:0;left:0;color:#fff;font-size: 50px;line-height: 354px;text-align: center;font-family: consolas;opacity: 0.7;}
+#content .eco dl .ddd{width: 550px;height: 640px;background: #fff;padding:40px 60px 0 40px;position: absolute;top:-60px;left:0;}
+#content .eco dl dd.d1{font-size: 25px;}
+#content .eco dl .line2{width: 70px;height: 1px;background: #A8A39D;margin:10px 0 10px 340px;}
+#content .eco dl dd.d2{font-size: 17px;padding-bottom:20px;color:#A99269;}
+#content .eco dl dd.d3{line-height: 35px;}
+#content .eco dl .wood{position: absolute;left:-40px;bottom:50px;}
+#content .eco dl .ddd ul{margin:100px 0 0 150px;}
+#content .eco dl .ddd ul li{padding-left:25px;background: url(../images/li.png) no-repeat 0 center;font-size: 18px;color:#5D5A57;line-height: 35px;}
